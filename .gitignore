@@ -1,0 +1,40 @@
+# Ignore the Docker image and container cache
+*.tar
+*.img
+*.iso
+
+# Ignore proxy files that may contain sensitive information
+files/proxies/*.txt
+
+# Ignore system files
+*.log
+*.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore Python-related files (if applicable)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments (if any)
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.env/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore node_modules if you use Node.js for some part of the project
+node_modules/
+
+# Ignore output directories
+dist/
+build/
+out/
